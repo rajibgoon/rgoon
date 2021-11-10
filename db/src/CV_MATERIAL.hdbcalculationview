@@ -371,7 +371,11 @@
       <viewAttribute id="SPRAS"/>
       <viewAttribute id="MATNR"/>
     </viewAttributes>
-    <calculatedViewAttributes/>
+    <calculatedViewAttributes>
+      <calculatedViewAttribute id="Test_CC" datatype="NVARCHAR" length="13" expressionLanguage="SQL">
+        <formula>1</formula>
+      </calculatedViewAttribute>
+    </calculatedViewAttributes>
     <input node="S_MAKT"/>
   </calculationView>
   <calculationView xsi:type="Calculation:ProjectionView" id="MBEW">
@@ -1726,6 +1730,7 @@
       <viewAttribute id="MAKTX"/>
       <viewAttribute id="MAKTX_1"/>
       <viewAttribute id="MAKTG"/>
+      <viewAttribute id="Test_CC"/>
     </viewAttributes>
     <calculatedViewAttributes/>
     <input node="Join_1_1">
@@ -2142,6 +2147,7 @@
       <mapping xsi:type="Calculation:AttributeMapping" target="MAKTX" source="MAKTX"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="MAKTX_1" source="MAKTX"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="MAKTG" source="MAKTG"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="Test_CC" source="Test_CC"/>
       <mapping xsi:type="Calculation:AttributeMapping" target="MATNR" source="MATNR"/>
     </input>
     <joinAttribute name="MATNR"/>
@@ -3298,6 +3304,11 @@
       <descriptions defaultDescription="MATERIAL NUMBER_1"/>
       <keyMapping columnObjectName="Join_1_2" columnName="MATNR_1"/>
     </attribute>
+  
+    <attribute id="Test_CC" order="412" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Test_CC"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="Test_CC"/>
+    </attribute>
   </attributes>
   <calculatedAttributes/>
   <baseMeasures>
@@ -3805,27 +3816,27 @@
 <layout>
   <shapes>
     <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
-      <upperLeftCorner x="474.7377768962724" y="112"/>
+      <upperLeftCorner x="474" y="112"/>
     
       <rectangleSize width="160"/>
     </shape>
     
   
     <shape expanded="true" modelObjectName="MARA" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="302.0000000000001" y="406.9999988079071"/>
+      <upperLeftCorner x="302" y="406"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape expanded="true" modelObjectName="MAKT" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="722.0000000000001" y="406.9999988079071"/>
+      <upperLeftCorner x="722" y="406"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape expanded="true" modelObjectName="MBEW" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="512.0000000000001" y="406.9999988079071"/>
+      <upperLeftCorner x="512" y="406"/>
       <rectangleSize height="30" width="160"/>
     </shape>
   
     <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="474.7377768962724" y="217"/>
+      <upperLeftCorner x="474" y="217"/>
       <rectangleSize height="30" width="160"/>
     </shape>
     <shape modelObjectName="MAKT" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
