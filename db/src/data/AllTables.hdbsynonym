@@ -1,0 +1,26 @@
+{
+  "S_TVFKT": {
+    "target": {
+      "object": "TVFKT",
+      "schema": "G_S4_DEV"
+    }
+  },
+  "S_T001T": {
+    "target": {
+      "object": "T001T",
+      "schema": "G_S4_DEV"
+    }
+  },
+  "S_TVKOT": {
+    "target": {
+      "object": "TVKOT",
+      "schema": "G_S4_DEV"
+    }
+  },
+  "S_TSPAT": {
+    "target": {
+      "object": "TSPAT",
+      "schema": "G_S4_DEV"
+    }
+  }
+}

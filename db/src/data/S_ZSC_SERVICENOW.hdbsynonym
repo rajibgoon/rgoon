@@ -1,0 +1,8 @@
+{
+  "S_ZSC_SERVICENOW": {
+    "target": {
+      "object": "ZSC_SERVICENOW",
+      "schema": "G_S4_DEV"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+View "V_MARA" AS 
+Select 
+"MATNR" AS MaterialNumber,
+"ERSDA" As CreatedOn,
+"MTART" AS MaterialType,
+"MBRSH" As Industrysector,	
+"MATKL" As MaterialGroup,	
+"BISMT" As OldMaterialNumber,	
+"MEINS" As BaseUnitofMeasure,
+"BSTME" As PurchaseOrderUnitofMeasure,
+"WRKST" AS BasicMaterial,
+"GEWEI" As WeightUnit,
+"VOLUM" As Volume,	
+"VOLEH" As Volumeunit,
+"SPART" As Division,
+"LAENG" AS Lngth,
+"BREIT" AS Width,
+"HOEHE" As Height
+From "S_MARA"
+

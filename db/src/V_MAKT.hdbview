@@ -1,0 +1,8 @@
+View "V_MAKT" AS 
+Select 
+"MAKTX" AS MaterialDescription,
+"MAKTG" AS MaterialMatchcodes,
+"MANDT" AS CLIENT,
+"SPRAS" AS  LanguageKey,
+"MATNR" AS  MaterialNumber
+From "S_MAKT"

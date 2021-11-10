@@ -1,0 +1,8 @@
+{
+  "S_MAKT": {
+    "target": {
+      "object": "MAKT",
+      "schema": "G_S4_DEV"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "S_PRCD_ELEMENTS": {
+    "target": {
+      "object": "PRCD_ELEMENTS",
+      "schema": "G_S4_DEV"
+    }
+  }
+}
