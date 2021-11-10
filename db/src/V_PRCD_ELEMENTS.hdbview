@@ -1,1 +1,0 @@
-view "V_PRCD_ELEMENTS" AS Select * from "S_PRCD_ELEMENTS"
