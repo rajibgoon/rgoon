@@ -1,0 +1,1 @@
+View V_TEST AS select * from "S_MARA"
