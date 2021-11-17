@@ -1,0 +1,1 @@
+View test_git AS select * from "S_MARA"
